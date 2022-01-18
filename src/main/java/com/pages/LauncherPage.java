@@ -45,7 +45,7 @@ public class LauncherPage {
 		return waitForElement(downloadBtn);
 	}
 	public void deleteFiles() {
-		File file = new File("./src/main/resources/launcher","GruntHTTP.exe");
+		File file = new File("./src/main/resources","GruntHTTP.exe");
 		file.delete();
 	}
 	public void isfiledownloaded() {
